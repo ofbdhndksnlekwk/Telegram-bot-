@@ -8,12 +8,11 @@ from aiohttp import web
 
 logging.basicConfig(level=logging.INFO)
 
-BOT_TOKEN = os.getenv("8710679355:AAGZlDJpAysjiqKryX6MBI-W_siCgSD089Y") 
+# Tokenni to'g'ridan-to'g'ri shu yerga yozamiz
+BOT_TOKEN = "8710679355:AAGZlDJpAysjiqKryX6MBI-W_siCgSD089Y"
 ADMIN_USERNAME = "U_Z_BxG"
 NETLIFY_URL = "https://haxi-agency.netlify.app"
 
-if not BOT_TOKEN:
-    exit("Xatolik: BOT_TOKEN topilmadi!")
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
