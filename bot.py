@@ -8,7 +8,7 @@ from aiohttp import web
 
 logging.basicConfig(level=logging.INFO)
 
-BOT_TOKEN = os.getenv("8710679355:AAHUw2KQsliPl-IynoEgkMoFLs6ebKmW020") 
+BOT_TOKEN = os.getenv("8710679355:AAGZlDJpAysjiqKryX6MBI-W_siCgSD089Y") 
 ADMIN_USERNAME = "U_Z_BxG"
 NETLIFY_URL = "https://haxi-agency.netlify.app"
 
